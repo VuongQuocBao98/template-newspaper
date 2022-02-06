@@ -1,0 +1,478 @@
+body {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 27px;
+    color: #838383;
+    font-weight: 400;
+}
+
+
+/* Style header */
+
+#header {
+    background: #ffffff;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+ul#main-menu li {
+    float: left;
+}
+
+ul#main-menu li a {
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    padding: 16px 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul#main-menu li:hover a {
+    color: #008643;
+    transition: all 0.25s;
+}
+
+#header #main-menu {
+    margin-left: 50px;
+}
+
+#logo {
+    padding: 16px 0px 6px 0px;
+}
+
+
+/* #logo img {
+    display: block;
+} */
+
+#header form {
+    margin-top: 11px;
+    position: relative;
+}
+
+#header form #search-key {
+    width: 180px;
+    font-size: 13px;
+    line-height: 33px;
+    /*Bo tròn viền*/
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    /*in nghiêng cho text*/
+    font-style: italic;
+    padding: 1px 30px 1px 15px;
+}
+
+#header form .btn-search {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /*Màu mặc định*/
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    color: #a3a3a3;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Style wp-content */
+
+
+/* Style bread-crumb */
+
+#bread-crumb {
+    background: #eee;
+    margin-bottom: 30px;
+}
+
+#bread-crumb .list-bread-crumb li {
+    display: inline-block;
+}
+
+#bread-crumb .list-bread-crumb li a {
+    font-size: 11px;
+    color: #565656;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+#bread-crumb .list-bread-crumb li+li:before {
+    font-family: FontAwesome;
+    font-size: 11px;
+    content: "\f105";
+    color: #565656;
+    padding: 0 10px;
+}
+
+
+/* Style content */
+
+#content {
+    width: 834px;
+    padding-right: 34px;
+    border-right: 1px solid #f5f5f5;
+}
+
+.cover .post-cover {
+    margin-bottom: 33px;
+}
+
+
+/* Khung ảnh */
+
+.cover .post-cover .post-thumb {
+    width: 405px;
+    height: 270px;
+    margin-right: 30px;
+    overflow: hidden;
+    display: block;
+}
+
+
+/* Ảnh */
+
+.post-cover .post-thumb img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cover .post-content {
+    width: 360px;
+}
+
+.cover .post-content .post-title {
+    display: block;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    font-weight: 500;
+    padding-bottom: 22px;
+    text-decoration: none;
+}
+
+.cover .post-content .post-title:hover,
+.list-post-cover .post-title:hover,
+.widget-feature .list-feature .post-content .post-title:hover {
+    color: #008643;
+    transition: all 0.25s;
+}
+
+.cover .post-content .post-desc p {
+    font-size: 15px;
+    line-height: 27px;
+    color: #3f3f3f;
+    font-weight: 400;
+}
+
+#content .list-post-left {
+    width: 390px;
+    margin-right: 37px;
+}
+
+.list-post-cover li .post-thumb {
+    float: left;
+    width: 120px;
+    height: 75px;
+    margin-right: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+.list-post-cover li .post-thumb img {
+    max-width: 100%;
+    height: auto;
+}
+
+.list-post-cover li {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.list-post-cover li .post-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+
+#content .list-post-right {
+    width: 368px;
+    padding-right: 9px;
+}
+
+.cover {
+    margin-bottom: 18px;
+}
+
+.widget-feature {
+    border-top: 1px solid #01a050;
+    padding: 40px 0px 25px 0px;
+}
+
+.widget-feature .list-feature li .post-thumb {
+    float: left;
+    width: 250px;
+    height: 140px;
+    margin-right: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+.widget-feature .list-feature li .post-thumb img {
+    max-width: 100%;
+    height: auto;
+}
+
+.widget-feature .list-feature .post-content {
+    width: 528px;
+}
+
+.widget-feature .list-feature .post-content .post-title {
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.widget-feature .list-feature .post-content .post-time {
+    font-size: 12px;
+    color: #959595;
+    padding-left: 17px;
+    position: relative;
+}
+
+.widget-feature .list-feature .post-content .post-time:before {
+    font-family: FontAwesome;
+    content: "\f017";
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.widget-feature .list-feature .post-content p.post-desc {
+    font-size: 14px;
+    line-height: 24px;
+    color: #464646;
+}
+
+.widget-feature .list-feature li {
+    margin-bottom: 35px;
+}
+
+#content .paggin {
+    padding-left: 253px;
+    margin-bottom: 80px;
+}
+
+#content .paggin .list-paggin li p {
+    float: left;
+    margin-right: 15px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #0b0b0b;
+}
+
+#content .paggin .list-paggin li a {
+    float: left;
+    display: block;
+    width: 35px;
+    border: 1px solid #dedede;
+    font-size: 13px;
+    line-height: 30px;
+    color: #0b0b0b;
+    margin-right: 7px;
+}
+
+#content .paggin .list-paggin li.active a,
+#content .paggin .list-paggin li a:hover {
+    font-size: 13px;
+    line-height: 30px;
+    background: #01a050;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+/* Style sidebar */
+
+#sidebar {
+    width: 336px;
+    padding-left: 29px;
+}
+
+#sidebar .banner-top {
+    width: 306px;
+    height: 246px;
+    margin-bottom: 46px;
+}
+
+.widget-top-view .widget-title {
+    padding-bottom: 18px;
+    border-bottom: 1px solid #01a050;
+}
+
+.widget-top-view .widget-title h4 {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+}
+
+.widget-top-view .widget-content {
+    padding: 20px 10px 20px 0px;
+}
+
+.widget-top-view .widget-content .list-post li {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.widget-top-view .widget-content .list-post li .post-thumb {
+    float: left;
+    width: 120px;
+    /* height: 76px; */
+    overflow: hidden;
+    display: block;
+    margin-right: 20px;
+}
+
+.widget-top-view .widget-content .list-post li .post-thumb img {
+    max-width: 100%;
+    height: auto;
+}
+
+.widget-top-view .widget-content .list-post .post-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #000000;
+    width: 152px;
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+
+#sidebar .banner-bottom {
+    margin-top: 30px;
+}
+
+.widget-feature-cat .widget-content .post-title:hover {
+    color: #008643;
+    transition: all 0.25s;
+}
+
+#sidebar .widget-content .list-post .post-title:hover {
+    color: #008643;
+    transition: all 0.25s;
+}
+
+
+/* Sytle footer */
+
+#footer {
+    background: #01a050;
+    color: #f5f5f5;
+    padding: 45px 0px 25px 0px;
+}
+
+#footer .widget-about {
+    width: 27%;
+    padding-right: 50px;
+}
+
+#footer .widget-about .widget-title,
+.widget-category .widget-title,
+#footer .widget-hot-new .widget-title,
+#footer .widget-fanpage .widget-title {
+    margin-bottom: 16px;
+}
+
+#footer .widget-about .widget-title h4,
+.widget-category .widget-title h4,
+#footer .widget-hot-new .widget-title h4,
+#footer .widget-fanpage .widget-title h4 {
+    font-size: 21px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 7px 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#footer .widget-about .widget-content p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#footer .widget-about .widget-content p.contact-gmail:before {
+    content: "\f003";
+    font-family: "FontAwesome";
+    color: #fff;
+    padding-right: 17px;
+}
+
+#footer .widget-about .widget-content p.contact-phone:before {
+    content: "\f095";
+    font-family: "FontAwesome";
+    color: #fff;
+    padding-right: 16px;
+}
+
+#footer .widget-category {
+    width: 18%;
+}
+
+#footer .widget-category .widget-content li,
+#footer .widget-hot-new .widget-content li {
+    margin-bottom: 10px;
+}
+
+#footer .widget-category .widget-content li a,
+#footer .widget-hot-new .widget-content li a {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    display: block;
+    position: relative;
+    padding-left: 16px;
+}
+
+#footer .widget-hot-new {
+    width: 27%;
+}
+
+#footer .widget-category .widget-content li a:before,
+#footer .widget-hot-new .widget-content li a::before {
+    font-family: FontAwesome;
+    content: "\f105";
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#footer .widget-category ul.widget-content li:hover a,
+#footer .widget-category ul.widget-content li:hover a:before,
+#footer .widget-hot-new .widget-content li:hover a,
+#footer .widget-hot-new .widget-content li:hover a:before {
+    transition: all 0.10s;
+    left: 1px;
+}
+
+
+/* Style copyright */
+
+#copyright {
+    background: #ffffff;
+    padding: 10px 0px;
+}
+
+#copyright p {
+    font-size: 14px;
+    color: #585858;
+}
